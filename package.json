@@ -1,22 +1,26 @@
 {
-  "name": "mean",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Demiara/MEAN-project.git"
-  },
-  "author": "Tatyana Kutalo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Demiara/MEAN-project/issues"
-  },
-  "homepage": "https://github.com/Demiara/MEAN-project#readme",
-  "dependencies": {
-    "express": "^4.17.2"
-  }
+    "name": "mean",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "server": "nodemon index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Demiara/MEAN-project.git"
+    },
+    "author": "Tatyana Kutalo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Demiara/MEAN-project/issues"
+    },
+    "homepage": "https://github.com/Demiara/MEAN-project#readme",
+    "dependencies": {
+        "express": "^4.17.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
 }
